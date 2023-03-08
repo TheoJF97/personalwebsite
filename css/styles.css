@@ -1,0 +1,179 @@
+/* Color Palette: https://colorhunt.co/palette/edf1d69dc08b60996640513b
+#EDF1D6 - background 
+#9DC08B - button 
+#609966 - h2 and anchor tags 
+#40513B - h1 and h2 
+*/
+
+/* Fonts 
+Merriweather - body
+Edu SA Beginner - h1
+Montserrat - else
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color:#40513B; 
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Edu SA Beginner', sans-serif;
+    font-size: 5.625rem;
+    color: #40513B;
+    line-height: 2; /*Unitless implies number multiplied by element's font size: 2*5.625rem = 11.25rem */ 
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 12px auto auto auto;
+    color: #40513B;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #609966 
+}
+
+a {
+    color: #609966;
+}
+
+.top-container {
+    background-color: #EDF1D6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    bottom: 86%;
+    left: 65%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 33%;
+}
+
+p {
+    line-height: 2;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skills {
+    margin: 75px auto 75px auto;
+}
+
+.theopfp {
+    width: 32%;
+    border-radius: 33%;
+    margin-top: 2%;
+}
+
+.intro {
+    width: 30%;
+    margin: 3% auto auto auto;
+}
+
+.dev-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.actg-img {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+}
+
+.comm-img {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+
+.chat-inv {
+    margin: auto auto 5% auto;
+}
+
+.btn {
+    background: #9DC08B;
+    background-image: linear-gradient(to bottom, #9DC08B, #609966);
+    border-radius: 28px;
+    font-family: 'Montserrat', serif;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 5% auto 5% auto;
+  }
+  
+  .btn:hover {
+    background: #609966 ;
+    text-decoration: none;
+  }
+
+.bottom-container { 
+    height: 25%;
+    background-color: #EDF1D6;
+    margin: 7% auto 0 auto;
+    padding: 5%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #EDF1D6; 
+    border-width: 9px;
+    width: 12%;    
+    margin: 10% auto 10% auto;
+  }
+
+  .footer-link {
+    padding: 0 3% 0 3%;
+    font-family: 'Montserrat', serif;
+    color: #40513B;
+    text-decoration: none;
+    font-size:larger
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    font-family: 'Montserrat', serif;
+    color: #609966;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+
+  .copyright {
+    font-family: 'Montserrat', serif;
+    color: #40513B;
+    text-decoration: none;
+    font-size:small;
+    padding: 20px 0;
+  }
